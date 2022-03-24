@@ -1,0 +1,72 @@
+body {
+  background-image: url(/img/cover.jpeg);
+  background-repeat: repeat;
+}
+button {
+  background-color: rgba(85, 116, 111, 0.774);
+  border-radius: 8px;
+  font-size: 23px;
+  height: 70px;
+  width: 135px;
+  border: 5px solid rgb(235, 148, 177);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  position: absolute;
+  color: rgba(255, 255, 148, 0.945);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(62, 85, 81, 0.835);
+  transition: 0.4s;
+}
+.easy-btn {
+  margin-left: 30%;
+}
+.medium-btn {
+  margin-left: 40%;
+}
+
+.hard-btn {
+  margin-left: 50%;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  color: rgb(235, 148, 177);
+  margin-top: 70px;
+}
+div h1 {
+  background-color: rgb(255, 228, 181);
+  display: inline-flex;
+  margin-left: 30%;
+}
+
+table td {
+  height: 50px;
+  width:50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-collapse: separate;
+  border: 3px solid rgb(20, 124, 98);
+  text-align: center;
+  border-radius: 10%;
+  background-color: pink;
+  font-weight: bold;
+  font-size: 18px;
+}
+.game-board {
+    height: 30px;
+  margin-right: auto;
+  margin-left:35%;
+  margin-top: 90px;
+  border-collapse:separate;
+  border: 3px solid rgb(20, 124, 98);
+  text-align: center;
+  border-radius: 2%;
+  
+}
